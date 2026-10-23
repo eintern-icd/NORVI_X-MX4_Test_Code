@@ -75,7 +75,7 @@ LGFX tft;
 #define RTD_SLAVE_ADDR 0x3F
 
 // ---------------- CONFIG ----------------
-uint8_t rtdType = 1;                 // 0 = PT100 | 1 = PT1000
+uint8_t rtdType = 0;                 // 0 = PT100 | 1 = PT1000
 uint8_t channelsToRead[4] = {1, 2, 3, 4}; // read all 4 channels
 uint8_t numChannels = 4;
 
