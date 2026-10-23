@@ -1,4 +1,4 @@
-// NPD-NORVI EXPE RTD – MASTER
+// NPD-NORVI EXPE RTD – MASTER (All 4 Channels Enabled)
 
 #include <Wire.h>
 #include <SPI.h>
@@ -76,8 +76,8 @@ LGFX tft;
 
 // ---------------- CONFIG ----------------
 uint8_t rtdType = 1;                 // 0 = PT100 | 1 = PT1000
-uint8_t channelsToRead[4] = {1};    // default channel 1
-uint8_t numChannels = 1;
+uint8_t channelsToRead[4] = {1, 2, 3, 4}; // read all 4 channels
+uint8_t numChannels = 4;
 
 // ---------------- DATA ----------------
 float rtdTemp[4] = {0};
