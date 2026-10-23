@@ -2,8 +2,42 @@
   "version": 2,
   "enforcementLevel": "strict",
   "libraries": {
-    "manager": [],
-    "managerResolved": [],
-    "git": []
+    "manager": [
+      {
+        "name": "Adafruit ADS1X15",
+        "version": "2.6.2",
+        "scope": "shared"
+      },
+      {
+        "name": "LovyanGFX",
+        "version": "1.2.34",
+        "scope": "shared"
+      }
+    ],
+    "managerResolved": [
+      {
+        "name": "Adafruit ADS1X15",
+        "version": "2.6.2"
+      },
+      {
+        "name": "Adafruit BusIO",
+        "version": "1.17.4"
+      },
+      {
+        "name": "LovyanGFX",
+        "version": "1.2.34"
+      }
+    ],
+    "git": [
+      {
+        "name": "PCA9538",
+        "url": "https://github.com/sathsaraachintha/PCA9538",
+        "commit": "df28b4bcf126febb9cf6c6c0f38280d3a9dd2a9f",
+        "subpath": null,
+        "scope": "shared",
+        "format": "legacy",
+        "contentSha256": "15ca91217e30912270c6051c6bed7328bcf11a601d65f69f8c51f65b71fbf109"
+      }
+    ]
   }
 }
